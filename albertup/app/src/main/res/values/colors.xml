@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background">#FFF6F7F3</color>
+    <color name="surface_card">#FFFFFFFF</color>
+    <color name="text_primary">#FF1A1C14</color>
+    <color name="text_secondary">#FF5A5E55</color>
+    <color name="accent_volt">#FF558A00</color>
+    <color name="accent_container">#FFEAF5C8</color>
+    <color name="divider">#FFE2E5DE</color>
 </resources>
