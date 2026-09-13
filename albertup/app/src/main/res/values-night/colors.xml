@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FF101114</color>
+    <color name="surface_card">#FF1C1E1A</color>
+    <color name="text_primary">#FFF1F3EA</color>
+    <color name="text_secondary">#FFB8BFAF</color>
+    <color name="accent_volt">#FFC6F135</color>
+    <color name="on_accent_volt">#FF101114</color>
+    <color name="accent_container">#FF2A3312</color>
+    <color name="divider">#FF2E322B</color>
+</resources>

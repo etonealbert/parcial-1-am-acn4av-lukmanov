@@ -271,8 +271,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/reps_label"
-                        android:textColor="@color/text_secondary"
-                        android:textSize="@dimen/body_text_size" />
+                        android:textColor="@color/text_primary"
+                        android:textSize="@dimen/section_title_size"
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:id="@+id/stepperRow"
@@ -287,8 +288,10 @@
                             android:layout_width="@dimen/stepper_button_size"
                             android:layout_height="@dimen/stepper_button_size"
                             android:contentDescription="@string/decrease_desc"
-                            android:text="@string/decrease"
-                            android:textSize="@dimen/button_text_size" />
+                            app:icon="@drawable/ic_minus"
+                            app:iconSize="@dimen/icon_size_small"
+                            app:iconPadding="@dimen/spacing_none"
+                            app:iconTint="@color/on_accent_volt" />
 
                         <TextView
                             android:id="@+id/tvRepCount"
@@ -306,8 +309,10 @@
                             android:layout_width="@dimen/stepper_button_size"
                             android:layout_height="@dimen/stepper_button_size"
                             android:contentDescription="@string/increase_desc"
-                            android:text="@string/increase"
-                            android:textSize="@dimen/button_text_size" />
+                            app:icon="@drawable/ic_plus"
+                            app:iconSize="@dimen/icon_size_small"
+                            app:iconPadding="@dimen/spacing_none"
+                            app:iconTint="@color/on_accent_volt" />
 
                     </LinearLayout>
 
@@ -348,91 +353,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing_small"
                 android:orientation="vertical">
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/spacing_small"
-                    app:cardBackgroundColor="@color/surface_card"
-                    app:cardCornerRadius="@dimen/card_radius"
-                    app:contentPadding="@dimen/set_row_padding"
-                    app:strokeColor="@color/divider"
-                    app:strokeWidth="@dimen/card_stroke">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/tvSet1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/set1_text"
-                            android:textColor="@color/text_primary"
-                            android:textSize="@dimen/body_text_size" />
-
-                    </LinearLayout>
-
-                </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/spacing_small"
-                    app:cardBackgroundColor="@color/surface_card"
-                    app:cardCornerRadius="@dimen/card_radius"
-                    app:contentPadding="@dimen/set_row_padding"
-                    app:strokeColor="@color/divider"
-                    app:strokeWidth="@dimen/card_stroke">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/tvSet2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/set2_text"
-                            android:textColor="@color/text_primary"
-                            android:textSize="@dimen/body_text_size" />
-
-                    </LinearLayout>
-
-                </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/spacing_small"
-                    app:cardBackgroundColor="@color/surface_card"
-                    app:cardCornerRadius="@dimen/card_radius"
-                    app:contentPadding="@dimen/set_row_padding"
-                    app:strokeColor="@color/divider"
-                    app:strokeWidth="@dimen/card_stroke">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/tvSet3"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/set3_text"
-                            android:textColor="@color/text_primary"
-                            android:textSize="@dimen/body_text_size" />
-
-                    </LinearLayout>
-
-                </com.google.android.material.card.MaterialCardView>
-
             </LinearLayout>
 
             <TextView

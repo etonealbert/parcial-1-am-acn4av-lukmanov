@@ -13,7 +13,7 @@
     <string name="choose_exercise">Choose exercise</string>
     <string name="pushups">Push-ups</string>
     <string name="pullups">Pull-ups</string>
-    <string name="reps_label">Reps per set</string>
+    <string name="reps_label">Reps this set</string>
     <string name="rep_count_12">12</string>
     <string name="decrease">−</string>
     <string name="increase">+</string>
@@ -36,4 +36,13 @@
     <string name="desc_push">Push-ups icon</string>
     <string name="desc_pull">Pull-ups icon</string>
     <string name="desc_empty">Workout illustration</string>
+    <string name="log_button_format">Log %1$d %2$s</string>
+    <string name="set_row_format">Set %1$d • %2$s • %3$d reps</string>
+    <string name="todays_sets_format">Today\'s sets (%1$d)</string>
+    <string name="daily_goal_format">Daily goal: %1$d / 100 reps</string>
+    <string name="pr_value_format">%1$d reps</string>
+    <string name="motivation_remaining">%1$d reps to 100! Keep pushing.</string>
+    <string name="motivation_done">Goal reached! Amazing work.</string>
+    <string name="pr_empty">—</string>
+    <string name="new_pr_message">New personal best!</string>
 </resources>
